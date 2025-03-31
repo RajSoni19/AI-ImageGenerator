@@ -1,4 +1,11 @@
 {
+  "name": "ai-mern-imagegenerator",
+  "version": "1.0.0",
+  "description": "DALL-E Clone with MERN Stack",
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "cd client && npm run preview"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
